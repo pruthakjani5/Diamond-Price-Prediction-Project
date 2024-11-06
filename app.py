@@ -6,10 +6,9 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler, OrdinalEncoder
 from sklearn.impute import SimpleImputer
 from sklearn.compose import ColumnTransformer
 import clipboard
-#from mapie.regression import MapieRegressor
 
 # Load the trained model
-model = joblib.load('xgb.pkl')  # Replace with your model file
+model = joblib.load('models/xgb.pkl')  # Replace with your model file
 
 # Define the Streamlit app
 def diamond_price_predictor():
