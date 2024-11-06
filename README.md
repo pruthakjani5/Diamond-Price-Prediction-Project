@@ -1,10 +1,10 @@
 # 💎 Diamond Price Prediction: Machine Learning Project 💻📊
 
-Welcome to the **Diamond Price Prediction** project, developed as part of the **Machine Learning using Python** course (3155202). This repository hosts our end-semester project aimed at building a robust machine learning model to automate the valuation of diamonds, addressing inefficiencies in traditional pricing methods.
+Welcome to the **Diamond Price Prediction** project, developed as part of the **Machine Learning using Python** course (3155202). This repository hosts our end-semester project which aims to build a robust machine learning model to automate the valuation of diamonds, addressing inefficiencies in traditional pricing methods.
 
 ## 🎯 Project Overview
 
-This project aims to develop a scalable and consistent pricing system using advanced machine learning models. By automating the valuation process, we seek to revolutionize the diamond industry, traditionally dependent on subjective and time-intensive manual appraisals.
+This project aims to develop a scalable and consistent pricing system using advanced machine learning models. By automating the valuation process, we seek to revolutionize the diamond industry, which is traditionally dependent on subjective and time-intensive manual appraisals.
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ This project aims to develop a scalable and consistent pricing system using adva
 10. [Project Structure](#project-structure)
 11. [Contributing](#contributing)
 12. [License](#license)
-13. [Acknowledgments](#acknowledgments)
+13. [Acknowledgment](#acknowledgment)
 14. [References](#references)
 
 ## Introduction
@@ -35,7 +35,7 @@ The diamond industry is plagued with challenges, such as:
 - 🕒 Time-consuming manual appraisals
 - 📈 Limited scalability of expert-based pricing
 
-## 🎯 Problem Statement
+### 🎯 Problem Statement
 
 Gem Stones Co. Ltd. faces several challenges in optimizing their profit margins:
 
@@ -44,7 +44,7 @@ Gem Stones Co. Ltd. faces several challenges in optimizing their profit margins:
 3. 📈 **Limited Scalability**: Current methods struggle to scale with demand.
 4. ⚡ **Real-Time Adjustments**: Inability to promptly reflect market changes.
 
-## Objectives
+### Objectives
 
 ### 🎯 Primary Objectives
 
@@ -62,13 +62,13 @@ Gem Stones Co. Ltd. faces several challenges in optimizing their profit margins:
 - Provide actionable insights for better inventory management.
 - Support data-driven decisions in trading.
 
-## 📊 Dataset
+### 📊 Dataset
 
 We used the **[Gemstone Price Prediction Dataset](https://www.kaggle.com/datasets/colearninglounge/gemstone-price-prediction)** from Kaggle. It contains approximately 27,000 records of cubic zirconia attributes, providing a comprehensive base for training and testing our models.
 
 ### Dataset Highlights:
 
-- 📦 **27,000+ Records**
+- 📦 **193500+ Records**
 - 🏷️ **10 Features**: Including carat weight, cut, color, clarity, and dimensions.
 - 📊 **High-Quality Data**: No missing values or duplicates, ensuring robust analysis.
 
@@ -95,6 +95,7 @@ preprocessor = ColumnTransformer([
 ])
 ```
 
+
 ### Model Development 🤖
 
 - **Linear Models**: Linear Regression, Lasso, Ridge, Elastic Net.
@@ -106,7 +107,7 @@ preprocessor = ColumnTransformer([
 - 🌀 **k-Fold Cross-Validation**
 - 🔍 **Hyperparameter Tuning** using Grid and Randomized Search.
 
-## 📈 Results and Insights 📊
+### 📈 Results and Insights 📊
 
 Our models achieved the following performance metrics:
 
@@ -137,7 +138,7 @@ Our models achieved the following performance metrics:
 - **Improved Pricing Accuracy**
 - **Enhanced Customer Satisfaction**
 
-## Web Application Features 🌐
+### Web Application Features 🌐
 The Streamlit web application provides:
 
 💎 Interactive diamond price prediction
@@ -146,7 +147,7 @@ The Streamlit web application provides:
 🔄 Batch prediction capabilities
 📱 Mobile-responsive design
 
-## 🔮 Future Enhancements
+### 🔮 Future Enhancements
 
 1. **Advanced Models** 🚀
    - Deep learning implementation.
@@ -160,7 +161,7 @@ The Streamlit web application provides:
    - Mobile Integration
    - Batch Processing to handle high-volume pricing efficiently.
 
-## 🚀 Quick Start
+### 🚀 Quick Start (Usage)
 
 ```bash
 # Clone the repository
@@ -173,7 +174,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 📚 Project Structure
+### 📚 Project Structure
 
 ```
 diamond-price-prediction/
@@ -186,7 +187,7 @@ diamond-price-prediction/
 └── 📄 README.md              # Project documentation
 ```
 
-## 👥 Contributing
+### 👥 Contributing
 
 Contributions are welcome! Feel free to:
 
@@ -194,14 +195,14 @@ Contributions are welcome! Feel free to:
 2. 🔧 Create a feature branch.
 3. 💡 Submit a pull request.
 
-## 📜 License
+### 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+### Acknowledgment
 This project was developed by **[Pruthak Jani]** as part of the **Machine Learning using Python** course at LDCE. Special thanks to the subject faculty for their guidance and support.
 
-## 📚 References
+### 📚 References
 
 1. 📊 [Kaggle Dataset](https://www.kaggle.com/datasets/colearninglounge/gemstone-price-prediction)
 2. 📘 [XGBoost Documentation](https://xgboost.readthedocs.io/)
