@@ -54,7 +54,7 @@ Gem Stones Co. Ltd. faces several challenges in optimizing their profit margins:
 - Provide actionable insights for better inventory management.
 - Support data-driven decisions in trading.
 
-## Dataset
+## Dataset 📊
 
 We used the **[Gemstone Price Prediction Dataset](https://www.kaggle.com/datasets/colearninglounge/gemstone-price-prediction)** from Kaggle. It contains approximately 193500 records of cubic zirconia attributes, providing a comprehensive base for training and testing our models.
 
@@ -98,7 +98,7 @@ preprocessor = ColumnTransformer([
 - 🌀 **k-Fold Cross-Validation**
 - 🔍 **Hyperparameter Tuning** using Grid and Randomized Search.
 
-## Results and Insights
+## Results and Insights 📈 
 
 Our models achieved the following performance metrics:
 
@@ -129,7 +129,7 @@ Our models achieved the following performance metrics:
 - **Improved Pricing Accuracy**
 - **Enhanced Customer Satisfaction**
 
-## Web Application Features
+## Web Application Features 🌐
 
 The Streamlit web application provides:
 
@@ -139,7 +139,7 @@ The Streamlit web application provides:
 - 🔄 Batch prediction capabilities
 - 📱 Mobile-responsive design
 
-## Future Enhancements
+## Future Enhancements 🔮
 
 1. **Advanced Models** 🚀
    - Deep learning implementation.
@@ -153,7 +153,7 @@ The Streamlit web application provides:
    - Mobile Integration
    - Batch Processing to handle high-volume pricing efficiently.
 
-## 🚀 Usage
+## Usage 🚀 
 
 ```bash
 # Clone the repository
@@ -166,7 +166,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Project Structure
+## Project Structure 🗃️
 
 ```
 diamond-price-prediction/
@@ -179,7 +179,7 @@ diamond-price-prediction/
 └── 📄 README.md            # Project documentation
 ```
 
-## Contributing
+## Contributing 👥
 
 Contributions are welcome! Feel free to:
 
@@ -187,7 +187,7 @@ Contributions are welcome! Feel free to:
 2. 🔧 Create a feature branch.
 3. 💡 Submit a pull request.
 
-## License
+## License 📜
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -195,7 +195,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 This project was developed by **Pruthak Jani** as part of the **Machine Learning using Python** course at LDCE. Special thanks to the subject faculty for their guidance and support.
 
-## References
+## References 📚
 
 1. 📊 [Kaggle Dataset](https://www.kaggle.com/datasets/colearninglounge/gemstone-price-prediction)
 2. 📘 [XGBoost Documentation](https://xgboost.readthedocs.io/)
