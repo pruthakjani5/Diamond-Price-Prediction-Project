@@ -56,7 +56,7 @@ Gem Stones Co. Ltd. faces several challenges in optimizing their profit margins:
 
 ## Dataset
 
-We used the **[Gemstone Price Prediction Dataset](https://www.kaggle.com/datasets/colearninglounge/gemstone-price-prediction)** from Kaggle. It contains approximately 27,000 records of cubic zirconia attributes, providing a comprehensive base for training and testing our models.
+We used the **[Gemstone Price Prediction Dataset](https://www.kaggle.com/datasets/colearninglounge/gemstone-price-prediction)** from Kaggle. It contains approximately 193500 records of cubic zirconia attributes, providing a comprehensive base for training and testing our models.
 
 ### Dataset Highlights:
 
