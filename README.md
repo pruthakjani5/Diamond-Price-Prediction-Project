@@ -14,7 +14,7 @@ This project aims to develop a scalable and consistent pricing system using adva
 4. [Dataset](#dataset)
 5. [Methodology](#methodology)
 6. [Results and Insights](#results-and-insights)
-7. [Deployment](#deployment)
+7. [Web Application Features](#web-application-features)
 8. [Future Enhancements](#future-enhancements)
 9. [Usage](#usage)
 10. [Project Structure](#project-structure)
@@ -27,15 +27,7 @@ This project aims to develop a scalable and consistent pricing system using adva
 
 In the diamond industry, pricing traditionally relies on human expertise, leading to inconsistencies and inefficiencies. This project leverages machine learning to provide a data-driven solution, ensuring consistent and objective pricing.
 
-### Business Context
-
-The diamond industry is plagued with challenges, such as:
-
-- 🚫 Subjective and inconsistent pricing
-- 🕒 Time-consuming manual appraisals
-- 📈 Limited scalability of expert-based pricing
-
-### 🎯 Problem Statement
+## 🎯 Problem Statement
 
 Gem Stones Co. Ltd. faces several challenges in optimizing their profit margins:
 
@@ -44,7 +36,7 @@ Gem Stones Co. Ltd. faces several challenges in optimizing their profit margins:
 3. 📈 **Limited Scalability**: Current methods struggle to scale with demand.
 4. ⚡ **Real-Time Adjustments**: Inability to promptly reflect market changes.
 
-### Objectives
+## Objectives
 
 ### 🎯 Primary Objectives
 
@@ -62,14 +54,14 @@ Gem Stones Co. Ltd. faces several challenges in optimizing their profit margins:
 - Provide actionable insights for better inventory management.
 - Support data-driven decisions in trading.
 
-### 📊 Dataset
+## 📊 Dataset
 
 We used the **[Gemstone Price Prediction Dataset](https://www.kaggle.com/datasets/colearninglounge/gemstone-price-prediction)** from Kaggle. It contains approximately 27,000 records of cubic zirconia attributes, providing a comprehensive base for training and testing our models.
 
 ### Dataset Highlights:
 
 - 📦 **193500+ Records**
-- 🏷️ **10 Features**: Including carat weight, cut, color, clarity, and dimensions.
+- 🏷️ **9 Features**: Including carat weight, cut, color, clarity, and dimensions.
 - 📊 **High-Quality Data**: No missing values or duplicates, ensuring robust analysis.
 
 ## Methodology
@@ -79,7 +71,7 @@ We used the **[Gemstone Price Prediction Dataset](https://www.kaggle.com/dataset
 - 🧹 **Numerical Features**: Median imputation.
 - 🏷️ **Categorical Features**: Ordinal encoding for `cut`, `color`, and `clarity`.
 
-### Data Pipeline Architecture🛠️
+### Data Pipeline Architecture 🛠️
 
 ```python
 # Example of our complete preprocessing pipeline
@@ -95,7 +87,6 @@ preprocessor = ColumnTransformer([
 ])
 ```
 
-
 ### Model Development 🤖
 
 - **Linear Models**: Linear Regression, Lasso, Ridge, Elastic Net.
@@ -107,21 +98,21 @@ preprocessor = ColumnTransformer([
 - 🌀 **k-Fold Cross-Validation**
 - 🔍 **Hyperparameter Tuning** using Grid and Randomized Search.
 
-### 📈 Results and Insights 📊
+## 📈 Results and Insights
 
 Our models achieved the following performance metrics:
 
-| Model | R² Score | RMSE ($) | MAE ($) | Training Time (s) |
-|-------|----------|----------|---------|-------------------|
-| Linear Regression | 0.9363 | 1014.63 | 675.08 | 0.15 |
-| Lasso | 0.9368 | 1014.61 | 675.27 | 0.22 |
-| Ridge | 0.9367 | 1014.64 | 675.22 | 0.18 |
-| Elastic Net | 0.8917 | 1327.12 | 1002.73 | 0.25 |
-| Decision Tree | 0.9704 | 854.98 | 427.16 | 0.35 |
-| Random Forest | 0.9768 | 611.83 | 309.79 | 90.2 |
-| XGBoost | 0.9796 | 587.89 | 297.25 | 10.85 |
-| CatBoost | 0.9783 | 701.00 | 445.00 | 35.95 |
-| Neural Network | 0.9745 | 642.24 | 343.34 | 150.32 |
+| Model           | R² Score | RMSE ($) | MAE ($) | Training Time (s) |
+|-----------------|----------|----------|---------|-------------------|
+| Linear Regression | 0.9363 | 1014.63  | 675.08  | 0.15              |
+| Lasso            | 0.9368   | 1014.61  | 675.27  | 0.22              |
+| Ridge            | 0.9367   | 1014.64  | 675.22  | 0.18              |
+| Elastic Net      | 0.8917   | 1327.12  | 1002.73 | 0.25              |
+| Decision Tree    | 0.9704   | 854.98   | 427.16  | 0.35              |
+| Random Forest    | 0.9768   | 611.83   | 309.79  | 90.2              |
+| XGBoost          | 0.9796   | 587.89   | 297.25  | 10.85             |
+| CatBoost         | 0.9783   | 701.00   | 445.00  | 35.95             |
+| Neural Network   | 0.9745   | 642.24   | 343.34  | 150.32            |
 
 ### Key Insights:
 
@@ -138,16 +129,17 @@ Our models achieved the following performance metrics:
 - **Improved Pricing Accuracy**
 - **Enhanced Customer Satisfaction**
 
-### Web Application Features 🌐
+## Web Application Features 🌐
+
 The Streamlit web application provides:
 
-💎 Interactive diamond price prediction
-📊 Real-time visualization of predictions
-📈 Feature importance analysis
-🔄 Batch prediction capabilities
-📱 Mobile-responsive design
+- 💎 Interactive diamond price prediction
+- 📊 Real-time visualization of predictions
+- 📈 Feature importance analysis
+- 🔄 Batch prediction capabilities
+- 📱 Mobile-responsive design
 
-### 🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 1. **Advanced Models** 🚀
    - Deep learning implementation.
@@ -161,7 +153,7 @@ The Streamlit web application provides:
    - Mobile Integration
    - Batch Processing to handle high-volume pricing efficiently.
 
-### 🚀 Quick Start (Usage)
+## 🚀 Quick Start (Usage)
 
 ```bash
 # Clone the repository
@@ -174,7 +166,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-### 📚 Project Structure
+## 📚 Project Structure
 
 ```
 diamond-price-prediction/
@@ -187,7 +179,7 @@ diamond-price-prediction/
 └── 📄 README.md              # Project documentation
 ```
 
-### 👥 Contributing
+## 👥 Contributing
 
 Contributions are welcome! Feel free to:
 
@@ -195,14 +187,15 @@ Contributions are welcome! Feel free to:
 2. 🔧 Create a feature branch.
 3. 💡 Submit a pull request.
 
-### 📜 License
+## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Acknowledgment
-This project was developed by **[Pruthak Jani]** as part of the **Machine Learning using Python** course at LDCE. Special thanks to the subject faculty for their guidance and support.
+## Acknowledgment
 
-### 📚 References
+This project was developed by **Pruthak Jani** as part of the **Machine Learning using Python** course at LDCE. Special thanks to the subject faculty for their guidance and support.
+
+## 📚 References
 
 1. 📊 [Kaggle Dataset](https://www.kaggle.com/datasets/colearninglounge/gemstone-price-prediction)
 2. 📘 [XGBoost Documentation](https://xgboost.readthedocs.io/)
@@ -212,5 +205,3 @@ This project was developed by **[Pruthak Jani]** as part of the **Machine Learni
 ---
 
 Let's innovate together and transform the diamond industry! 🚀
-
-
