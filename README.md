@@ -136,7 +136,7 @@ The Streamlit web application provides:
 - 💎 Interactive diamond price prediction
 - 📊 Real-time visualization of predictions
 - 📈 Feature importance analysis
-- 🔄 Batch prediction capabilities
+- 🔄 Copy the predicted price
 - 📱 Mobile-responsive design
 
 ## Future Enhancements
