@@ -157,7 +157,8 @@ The Streamlit web application provides:
 
 ```bash
 # Clone the repository
-git clone https://github.com/pruthakjani5/diamond-price-prediction.git
+git clone https://github.com/pruthakjani5/Diamond-Price-Prediction-Project.git
+cd Diamond-Price-Prediction-Project
 
 # Install dependencies
 pip install -r requirements.txt
