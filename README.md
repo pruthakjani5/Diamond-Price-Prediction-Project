@@ -1,10 +1,10 @@
 # 💎 Diamond Price Prediction: Machine Learning Project 💻📊
 
-Welcome to the **Diamond Price Prediction** project, developed as part of the **Machine Learning using Python** course (3155202). This repository hosts our end-semester project which aims to build a robust machine learning model to automate the valuation of diamonds, addressing inefficiencies in traditional pricing methods.
+Welcome to the **Diamond Price Prediction** project, developed as part of the **Machine Learning using Python** course (3155202). This repository hosts my end-semester project which aims to build a robust machine learning model to automate the valuation of diamonds, addressing inefficiencies in traditional pricing methods.
 
 ## 🎯 Project Overview
 
-This project aims to develop a scalable and consistent pricing system using advanced machine learning models. By automating the valuation process, we seek to revolutionize the diamond industry, which is traditionally dependent on subjective and time-intensive manual appraisals.
+This project aims to develop a scalable and consistent pricing system using advanced machine learning models. By automating the valuation process, I seek to revolutionize the diamond industry, which is traditionally dependent on subjective and time-intensive manual appraisals.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ This project aims to develop a scalable and consistent pricing system using adva
 4. [Dataset](#dataset)
 5. [Methodology](#methodology)
 6. [Results and Insights](#results-and-insights)
-7. [Web Application Features](#web-application-features)
+7. [Ib Application Features](#Ib-application-features)
 8. [Future Enhancements](#future-enhancements)
 9. [Usage](#usage)
 10. [Project Structure](#project-structure)
@@ -56,7 +56,7 @@ Gem Stones Co. Ltd. faces several challenges in optimizing their profit margins:
 
 ## Dataset
 
-We used the **[Gemstone Price Prediction Dataset](https://www.kaggle.com/datasets/colearninglounge/gemstone-price-prediction)** from Kaggle. It contains approximately 193500 records of cubic zirconia attributes, providing a comprehensive base for training and testing our models.
+I used the **[Gemstone Price Prediction Dataset](https://www.kaggle.com/datasets/colearninglounge/gemstone-price-prediction)** from Kaggle. It contains approximately 193500 records of cubic zirconia attributes, providing a comprehensive base for training and testing our models.
 
 ### Dataset Highlights:
 
@@ -108,10 +108,10 @@ Our models achieved the following performance metrics:
 | Lasso | 0.9368 | 1014.61 | 675.27 | 0.22 |
 | Ridge | 0.9367 | 1014.64 | 675.22 | 0.18 |
 | Elastic Net | 0.8917 | 1327.12 | 1002.73 | 0.25 |
-| Decision Tree | 0.9704 | 854.98 | 427.16 | 0.35 |
+| Decision Tree | 0.9704 | 686.52 | 380.73 | 0.35 |
 | Random Forest | 0.9768 | 611.83 | 309.79 | 90.2 |
-| XGBoost | 0.9796 | 587.89 | 297.25 | 10.85 |
-| CatBoost | 0.9783 | 701.00 | 445.00 | 35.95 |
+| XGBoost | 0.9796 | 577.18 | 295.19 | 10.85 |
+| CatBoost | 0.9783 | 591.83 | 314.16 | 35.95 |
 | Neural Network | 0.9745 | 642.24 | 343.34 | 150.32 |
 
 ### Key Insights:
