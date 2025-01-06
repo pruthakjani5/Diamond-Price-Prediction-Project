@@ -14,7 +14,7 @@ This project aims to develop a scalable and consistent pricing system using adva
 4. [Dataset](#dataset)
 5. [Methodology](#methodology)
 6. [Results and Insights](#results-and-insights)
-7. [Ib Application Features](#Ib-application-features)
+7. [Web Application Features](#web-application-features)
 8. [Future Enhancements](#future-enhancements)
 9. [Usage](#usage)
 10. [Project Structure](#project-structure)
